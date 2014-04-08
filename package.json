@@ -1,21 +1,17 @@
 {
-  "name": "enumerable-component",
+  "name": "component-enumerable",
+  "description": "Enumerable mixin",
   "version": "0.3.2",
+  "keywords": [
+    "enum",
+    "enumerable",
+    "mixin",
+    "iterator",
+    "iteration"
+  ],
   "dependencies": {
-    "isarray": "0.0.1",
-    "to-function": "^2.0.3"
+    "component-to-function": "git://github.com/npmcomponent/component-to-function.git",
+    "juliangruber-isarray": "git://github.com/npmcomponent/juliangruber-isarray.git"
   },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
-  },
-  "component": {
-    "scripts": {
-      "enumerable/index.js": "index.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/enumerable.git"
-  }
+  "license": "MIT"
 }

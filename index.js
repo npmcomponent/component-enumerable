@@ -3,8 +3,8 @@
  * Module dependencies.
  */
 
-var toFunction = require('to-function')
-  , isArray = require("isarray")
+var toFunction = require('component-to-function')
+  , isArray = require('juliangruber-isarray')
   , proto = {};
 
 /**
